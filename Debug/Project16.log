@@ -1,0 +1,14 @@
+﻿  condition_parser.cpp
+c:\users\ko1l\source\repos\project16\project16\condition_parser.cpp(55): error C3861: ParseDate: идентификатор не найден
+  c:\users\ko1l\source\repos\project16\project16\condition_parser.cpp(55): note: "ParseDate": функция не объявлена в контексте определения шаблона, и ее можно найти только через поиск, зависимый от аргументов, в контексте создания экземпляров
+  c:\users\ko1l\source\repos\project16\project16\condition_parser.cpp(77): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::shared_ptr<Node> ParseComparison<It>(It &,It)"
+          with
+          [
+              It=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Token>>>
+          ]
+  c:\users\ko1l\source\repos\project16\project16\condition_parser.cpp(109): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::shared_ptr<Node> ParseExpression<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(It &,It,unsigned int)"
+          with
+          [
+              _Ty=Token,
+              It=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Token>>>
+          ]
